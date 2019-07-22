@@ -1,0 +1,3 @@
+pom.xml - 스프링 버전, java version 확인
+jdbc 드라이버 add되어있는지 확인
+datasource - username, password 제대로 입력되어있는지 확인
