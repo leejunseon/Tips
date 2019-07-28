@@ -1,4 +1,5 @@
 마이바티스 쿼리로그 출력 참조: https://addio3305.tistory.com/66
+쿼리 정렬 참조 : https://pstree.tistory.com/123
 그 외 패키지별로 설정은 Application Loggers 추가
 
 

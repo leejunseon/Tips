@@ -1,0 +1,2 @@
+sqlSessionFactory 등록
+mapper 패키지 등록
