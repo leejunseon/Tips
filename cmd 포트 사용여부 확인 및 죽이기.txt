@@ -1,1 +1,13 @@
-https://yeti.tistory.com/3
+1. 포트 및 PID 확인
+ netstat -ano | find "LISTENING" | find "80"
+ (네트워크에서 열린 포트중에 80이 포함된 것들을 찾는다.)
+ 
+2. PID를 가진 프로세스 확인
+ tasklist /FI "PID eq 3792"
+ (PID가 3792인 프로세스를 확인한다.)
+ 
+3. PID를 가진 프로세스 죽이기
+ taskkill /F /PID 3792
+ (PID가 3792인 프로세스를 죽인다.)
+ 
+참조 : https://yeti.tistory.com/3
