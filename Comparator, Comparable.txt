@@ -1,0 +1,16 @@
+Sort할때 Comparator
+Priority Queue 쓸 때 Comparable
+
+-- ex --
+Arrays.sort(list,new Comparator<>(){
+  //오버라이드
+});
+
+class Pair implements comparable<Pair>{
+  int idx;
+  //오버라이드
+}
+
+오버라이드 할 때
+ 이거 - 저거 : 오름차순
+ 저거 - 이거 : 내림차순
