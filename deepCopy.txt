@@ -1,0 +1,10 @@
+public static int[][] deepCopy(int[][] original){
+		int[][] copy=new int[original.length][original[0].length];
+		for(int i=0;i<original.length;i++) {
+			System.arraycopy(original[i], 0, copy[i], 0, original[0].length);
+		}
+		return copy;
+}
+
+arraycopy는 일차원배열에만 적용가능
+객체의 deepCopy는 cloneable인터페이스 구현 후 clone()통해 가능
