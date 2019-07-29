@@ -3,6 +3,13 @@
 그 외 패키지별로 설정은 Application Loggers 추가
 
 
+--프로퍼티 파일--
+
+log4jdbc.spylogdelegator.name=net.sf.log4jdbc.log.slf4j.Slf4jSpyLogDelegator
+log4jdbc.dump.sql.maxlinelength=0
+
+
+--log4j 파일--
 
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE log4j:configuration PUBLIC "-//APACHE//DTD LOG4J 1.2//EN" "log4j.dtd">
