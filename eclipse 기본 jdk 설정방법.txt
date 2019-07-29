@@ -1,1 +1,11 @@
-https://mainia.tistory.com/3072
+전역
+1. Window -> Preferences
+2. Java -> Compiler
+3. Compiler compliance level에 있는 콤보박스 클릭 -> jdk 버전 선택
+4. Installed JREs -> 동일한 jdk 버전 선택. 없으면 Add로 추가
+
+개별 프로젝트
+1. 프로젝트 마우스 오른쪽 클릭 -> Properties
+2. Java Compiler -> 체크 풀고 jdk버전 변경
+
+참조 : https://mainia.tistory.com/3072
