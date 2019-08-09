@@ -1,0 +1,1 @@
+https://stackoverflow.com/questions/30489307/make-column-data-as-hyperlink-datatable-jquery
