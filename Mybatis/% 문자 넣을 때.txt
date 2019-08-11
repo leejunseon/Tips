@@ -1,0 +1,5 @@
+OGNL표현식
+ https://commons.apache.org/proper/commons-ognl/language-guide.html 참조
+ex)
+ '% ~~ %' 넣을 때는
+ '%'||#{search}||'%'
