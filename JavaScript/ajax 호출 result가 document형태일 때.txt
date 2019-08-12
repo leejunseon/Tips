@@ -1,0 +1,4 @@
+dataType:'json'으로 명시해주어야 함.
+
+contentType : 보내는 데이터의 타입
+dataType : 반환되는 데이터의 타입

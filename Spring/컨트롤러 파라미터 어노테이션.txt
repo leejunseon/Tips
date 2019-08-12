@@ -4,3 +4,5 @@
  - POST방식의 요청에서 Body에 해당 파라미터가 반드시 있어야 함.
 @ModelAttribute
  - 해당 파라미터는 반환되는 Model에 자동으로 추가됨
+@PathVariable
+ - value로 지정한 url에서 {}로 지정한 부분을 데이터로 받아옴
