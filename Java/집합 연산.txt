@@ -1,0 +1,6 @@
+부분집합 : containsAll
+합집합 : addAll
+교집합 : retainsAll
+차집합 : removeAll
+
+참조 : https://edu.goorm.io/learn/lecture/41/바로실습-생활코딩-자바-java/lesson/792/set
