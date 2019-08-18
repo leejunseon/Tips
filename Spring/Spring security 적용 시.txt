@@ -2,4 +2,10 @@
 2. web.xml 에 스프링시큐리티 xml설정파일 등록, filter 설정 (filter는 utf인코딩 -> security 순으로 설정)
 3. security-context.xml 파일 작성
 
-Security 적용 후에는 post,pul,patch,delete 데이터 전송 시 csrf 토큰 값 같이 전송해야 함.
+Security 적용 후에는 post,put,patch,delete 데이터 전송 시 csrf 토큰 값 같이 전송해야 함.
+
+* ajax 전송 시
+"beforeSend" : function(xhr){
+      //데이터를 전송하기 전에 헤더에 csrf값을 설정한다.
+      xhr.setRequestHeader("${_csrf.headerName}", "${_csrf.token}");
+},
