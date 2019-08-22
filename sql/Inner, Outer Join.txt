@@ -1,0 +1,8 @@
+Inner : 교집합
+Outer : 합집합
+  (join 이전에 기술하는 테이블이 left, 다음이 right)
+ - left outer : 왼쪽의 테이블이 기준
+ - right outer : 오른쪽의 테이블이 기준
+ - full outer : 완전한 합집합
+
+ 참조 : https://stanleykou.tistory.com/entry/SQL-INNER-%EC%A1%B0%EC%9D%B8%EA%B3%BC-OUTER%EC%A1%B0%EC%9D%B8%EC%9D%B4-%EB%AC%B4%EC%97%87%EC%9D%B8%EA%B0%80%EC%9A%94
