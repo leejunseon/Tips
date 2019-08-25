@@ -9,6 +9,7 @@ Security 적용 후에는 post,put,patch,delete 데이터 전송 시 csrf 토큰
       //데이터를 전송하기 전에 헤더에 csrf값을 설정한다.
       xhr.setRequestHeader("${_csrf.headerName}", "${_csrf.token}");
 },
+----> form으로 보낼 때는 _csrf.parameterName, ajax통해서 보낼 때는 _csrf.headerName
 
 스프링 설정 안먹을 때 -> tomcat껐다가 clean하고 다시 켜기.
 직렬화 관련 문제 -> tomcat 지웠다가 다시 켜기
