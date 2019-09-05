@@ -1,0 +1,2 @@
+$("").on("propertychange change keyup paste input", function() {
+}
