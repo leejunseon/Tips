@@ -1,0 +1,3 @@
+시퀀스 만들고,
+insert 시 autoincrement 적용할 열에 대해서
+시퀀스이름.nextval 로 insert
