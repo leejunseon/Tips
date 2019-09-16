@@ -1,0 +1,5 @@
+Lombok Log4j 어노테이션 인식 못할 때
+1. Lombok 다시 깔아보기
+2. pom.xml에서 Log4j 디펜던시에 scope부분 지우기
+
+dependency 설정할 때 컴터에 깔려있는 롬복 버전 그대로 써야 함.

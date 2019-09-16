@@ -1,2 +1,0 @@
-1. Lombok 다시 깔아보기
-2. pom.xml에서 Log4j 디펜던시에 scope부분 지우기
