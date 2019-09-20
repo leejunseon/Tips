@@ -1,0 +1,2 @@
+a.contains(b) : a가 b를 포함하고 있는지
+a.startsWith(b) : a가 b로 시작하는지
