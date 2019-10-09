@@ -1,2 +1,4 @@
-a.contains(b) : a°¡ b¸¦ Æ÷ÇÔÇÏ°í ÀÖ´ÂÁö
-a.startsWith(b) : a°¡ b·Î ½ÃÀÛÇÏ´ÂÁö
+a.contains(b) : aê°€ bë¥¼ í¬í•¨í•˜ê³  ìˆëŠ”ì§€
+a.startsWith(b) : aê°€ bë¡œ ì‹œì‘ë˜ëŠ”ì§€
+
+indexOf(String str) : ëŒ€ìƒ ë¬¸ìì—´ì—ì„œ strì˜ index ë°˜í™˜
