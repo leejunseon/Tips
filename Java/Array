@@ -1,0 +1,2 @@
+배열에서 일부분만 복사해오고 싶을 때
+Arrays.copyOfRange(start,end+1);

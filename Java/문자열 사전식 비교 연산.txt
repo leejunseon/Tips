@@ -1,5 +1,0 @@
-A.compareTo(B)
-A.compareToIgnoreCase(B) - 대소문자 무시
- -> A가 B보다 사전상 앞에 있으면 음수
- -> 뒤에 있으면 양수
- -> 같으면 0

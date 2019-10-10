@@ -1,0 +1,8 @@
+Iterator 사용해서 탐색 도중 지우기. (리스트의 경우에는 index참조하는게 더 빠름)
+
+for (Iterator<Character> iter = letters.iterator(); iter.hasNext(); ) {
+  Character letter = iter.next();
+  if (Character.isDigit(letter)) {
+    iter.remove();
+  }
+}

@@ -1,0 +1,15 @@
+A.compareTo(B)
+A.compareToIgnoreCase(B) - 대소문자 무시
+ -> A가 B보다 사전상 앞에 있으면 음수
+ -> 뒤에 있으면 양수
+ -> 같으면 0
+
+
+a.contains(b) : a가 b를 포함하고 있는지
+a.startsWith(b) : a가 b로 시작되는지
+
+
+특정 index의 문자 바꾸기
+StringBuilder builder = new StringBuilder("ABCDE");
+builder.setCharAt(2, 'Z'); //2는 index , Z는 char값
+builder.toString() = "ABZDE"
