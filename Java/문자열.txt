@@ -13,3 +13,10 @@ a.startsWith(b) : a가 b로 시작되는지
 StringBuilder builder = new StringBuilder("ABCDE");
 builder.setCharAt(2, 'Z'); //2는 index , Z는 char값
 builder.toString() = "ABZDE"
+
+split할 때 주의할 점
+ . 을 split의 인자로 넣을 때는 "."이 아닌 "\\."라고 해야한다.
+split의 인자로 들어가는 String토큰이 regex 정규식이기 때문.
+그 외에 \를 붙여야 하는 것은
+\b \t \n \f \r \" \' \\
+들이 있다.
