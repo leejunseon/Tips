@@ -1,0 +1,52 @@
+Thymeleaf  th:inline="Javascript"에서 ${} 사용하는 방법
+
+1. 스크립트태그에 인라인속성 추가
+th:inline="javascript"
+2. 스크립트 시작과 끝에 CDATA 반드시 선언
+/* <![CDATA[ */
+
+...
+
+/* ]]> */
+
+3. ${}를 주석으로 감싸기
+HTML에서는 ${}, 자바스크립트에서는  /*[[ ${} ]]*/
+
+
+
+---------- 예 제 1 ----------
+
+<script type="text/javascript" th:inline="javascript">
+    /*<![CDATA[*/
+       var all =  /*[[ ${data.all} ]]*/;
+       var title =  /*[[ ${data.title} ]]*/;
+       var content =  /*[[ ${data.content} ]]*/;
+    /*]]>*/
+</script>
+
+
+---------- 예 제 2 ----------
+<script type="text/javascript" th:inline="javascript">
+
+/* <![CDATA[ */
+
+
+
+if(/*[[${message.modal}]]*/ != null)
+
+ var title = /*[[ ${message.modal.title} ]]*/;
+
+ var content = /*[[ ${message.modal.content} ]]*/;
+
+ Modal.open(title, content);
+
+
+
+
+/* ]]> */
+
+</script>
+
+
+
+참조 : https://lge920904.tistory.com/127
