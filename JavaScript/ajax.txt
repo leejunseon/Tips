@@ -1,0 +1,3 @@
+data : 보내는 데이터
+contentType : 보내는 데이터의 타입
+dataType : 반환되는 데이터의 타입
