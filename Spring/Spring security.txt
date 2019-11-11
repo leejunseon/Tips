@@ -1,0 +1,19 @@
+1. pom.xml 에 스프링 관련 dependency 추가
+2. web.xml 에 스프링시큐리티 xml설정파일 등록, filter 설정 (filter는 utf인코딩 -> security 순으로 설정)
+3. security-context.xml 파일 작성
+
+(중요) Security 적용 후에는 post,put,patch,delete 데이터 전송 시 csrf 토큰 값 같이 전송해야 함.
+
+* ajax 전송 시
+"beforeSend" : function(xhr){
+      //데이터를 전송하기 전에 헤더에 csrf값을 설정한다.
+      xhr.setRequestHeader("${_csrf.headerName}", "${_csrf.token}");
+},
+----> form으로 보낼 때는 _csrf.parameterName, ajax통해서 보낼 때는 _csrf.headerName
+
+스프링 설정 안먹을 때 -> tomcat껐다가 clean하고 다시 켜기.
+직렬화 관련 문제 -> tomcat 지웠다가 다시 켜기
+
+
+Spring boot -> html 에서 csrf값 써야할 때
+참조 : https://www.popit.kr/spring-security-ajax-%ED%98%B8%EC%B6%9C-%EC%8B%9C-csrf-%EA%B4%80%EB%A0%A8-403-forbidden-%EC%97%90%EB%9F%AC/
