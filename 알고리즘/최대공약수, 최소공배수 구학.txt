@@ -1,0 +1,2 @@
+유클리드 호제법 사용
+http://lonpeach.com/2017/11/12/Euclidean-algorithm/
