@@ -1,3 +1,15 @@
 data : 보내는 데이터
 contentType : 보내는 데이터의 타입
 dataType : 반환되는 데이터의 타입
+
+
+.ajax로 서버에 데이터를 보낼때, header 중 Content-Type 이 존재하는데
+이를 설정하지 않았을 땐 default 값으로 application/x-www-form-urlencoded; charset=UTF-8 타입으로 지정됩니다.
+따라서 json 형태의 데이터를 주고 싶을 땐,
+header:{"Content-Type":"application/json"} 을 지정해 주어야 합니다.
+그런데 여기서 또 한가지 문제점이 발생하는데,
+request 안에 포함된 json 형태의 데이터를 받았을 때, 이것을 보통 VO(혹은 DTO)에 다시 담아 사용하는데,,
+.ajax는 데이터를 문자열화 해주지 않기 때문에 보낼 데이터를 JSON.stringify()로 감싸주어야 합니다.
+그렇지 않을 시,,
+json데이터의 "key":"value" 형태의 패턴을 인식하지 못합니다.
+참조 : https://thiago6.tistory.com/11
