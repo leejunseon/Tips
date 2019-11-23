@@ -1,0 +1,3 @@
+redirect 이후에도 데이터를 유지하고 싶을 때. - redirect 이후에는 데이터 소멸
+
+https://m.blog.naver.com/PostView.nhn?blogId=allkanet72&logNo=220964699929&proxyReferer=https%3A%2F%2Fwww.google.com%2F
