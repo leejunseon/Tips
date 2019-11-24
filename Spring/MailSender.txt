@@ -1,0 +1,1 @@
+https://a1010100z.tistory.com/entry/Spring-boot-Spring-boot%EB%A1%9C-%EC%9D%B4%EB%A9%94%EC%9D%BC-%EB%B3%B4%EB%82%B4%EA%B8%B0Spring-boot-starter-JavaMailSender-JSP-Gradle-%EA%B0%9C%EB%B0%9C%EC%9D%BC%EA%B8%B0A1
