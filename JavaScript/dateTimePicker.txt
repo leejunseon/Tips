@@ -1,5 +1,7 @@
-cdn
+- CDN
   <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/js/tempusdominus-bootstrap-4.min.js"></script>
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/tempusdominus-bootstrap-4/5.0.0-alpha14/css/tempusdominus-bootstrap-4.min.css" />
+
+- 날짜 선택창을 보이고자 하는 곳에 datetimepicker를 toggle 설정해주어야 함.
 
 참조 : https://tempusdominus.github.io/bootstrap-4/Usage/
