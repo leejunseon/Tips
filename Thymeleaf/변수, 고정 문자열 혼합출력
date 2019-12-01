@@ -1,0 +1,3 @@
+| 기호 사용.
+ex) th:text="|${list.originalFileName}(${list.fileSize} kb)|"
+-> ${}와 "kb" 혼합 출력.

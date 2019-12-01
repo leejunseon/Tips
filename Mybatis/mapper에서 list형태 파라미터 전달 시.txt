@@ -1,0 +1,5 @@
+foreach 사용 가능
+
+collections : 전달받은 파라미터. List 혹은 Array 형식의 데이터 사용
+item : 파라미터의 별칭. 별칭 사용해서 collection의 데이터에 접근.
+seperator : 반복되는 문자열의 구분. value여러개일 경우, 각 요소를 구분하는 문자.

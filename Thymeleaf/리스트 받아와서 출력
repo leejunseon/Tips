@@ -1,0 +1,2 @@
+th:each 사용.
+ex) th:each="list : ${board.fileList}"
