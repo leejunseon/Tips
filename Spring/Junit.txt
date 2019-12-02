@@ -1,0 +1,10 @@
+Junit에서 권한 필요한 부분 테스트 시
+
+@Test
+@WithMockUser(username = "user1", password = "pwd", roles = "USER")
+public void mytest1() throws Exception {
+    mockMvc.perform(get("/someApi"))
+        .andExpect(status().isOk());
+}
+
+'org.springframework.security:spring-security-test:4.2.3.RELEASE' 임포트 필요!
