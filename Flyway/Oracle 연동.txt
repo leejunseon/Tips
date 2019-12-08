@@ -1,1 +1,5 @@
 Flyway 무료버전은 Oracle 12c 부터 연동 가능.
+
+Flyway 적용 전 계정에
+  alter user 사용자이름 default tablespace users quota unlimited on users;
+해주어야 함.
